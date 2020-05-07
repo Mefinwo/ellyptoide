@@ -1,0 +1,15 @@
+{
+  "name": "ellyptoyde",
+  "version": "1.0.0",
+  "description": "new insane game",
+  "main": "index.js",
+  "dependencies": {
+    "p5": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "merlin wolff luis schuimer",
+  "license": "ISC"
+}
