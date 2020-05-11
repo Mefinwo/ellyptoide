@@ -59,9 +59,10 @@ function Level_1() {
     draw = function() {
        background(255,0,0)
      
+     backButton();
     fill(0, 255, 0);
        
-    backButton();
+ 
     //1
     rect(50, 0,50,126);
         
