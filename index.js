@@ -8,7 +8,7 @@ var backY = 5;
 function setup () {
     createCanvas(400,400);
     strokeWeight(3);
-    background(255, 0, 0);
+    background(255, 4, 0);
     textSize(30);
     startPage();
 }
@@ -57,11 +57,11 @@ function startPage() {
 function Level_1() {
     
     draw = function() {
-       
+       background(255,0,0)
      
-    fill(255, 0, 0);
+    fill(170, 27, 19);
        
-        
+    backButton();
     //1
     rect(50, 0,50,126);
         
@@ -169,7 +169,6 @@ function Level_1() {
         imagePositionX = -80;
     }
     
-    backButton();
     spaceShip();
     imagePositionX++;
     
