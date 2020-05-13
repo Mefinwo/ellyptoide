@@ -94,7 +94,7 @@ function Level_1() {
       
        
     if (imagePositionX>1175) {
-        mouseY = 550s;
+        mouseY = 550;
         imagePositionX = -100;
            
     }
