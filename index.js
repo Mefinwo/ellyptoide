@@ -61,13 +61,13 @@ function Level_1() {
        
  
     //1
-    rect(100, 0, 80, 250)
+    rect(100, 0, 50, 250)
         
     //2
-    rect(100, 300, 80, 300)
+    rect(100, 300, 50, 300)
         
     //3
-    
+    rect(220, 0, 50, 220)
         
     //4
     
@@ -102,70 +102,24 @@ function Level_1() {
       
        
     //1
-    if(imagePositionX > 30 && imagePositionX < 100 && mouseY < 120 && mouseY > 0) {
-            
-        mouseY = 185;
-        imagePositionX = -80;
-    
-    }
-        
+      
     //2
-    if(imagePositionX > 30 && imagePositionX < 100 && mouseY < 400 && mouseY > 220) {
-        mouseY = 185;
-        imagePositionX = -80;
-        }
-       
-       
+    
     //3
-    if(imagePositionX > 110 && imagePositionX < 160 && mouseY < 174 && mouseY > 0) {
-        mouseY = 185;
-        imagePositionX = -80;
-            
-        
-    }
        
     //4
-    if(imagePositionX > 100 && imagePositionX < 160 && mouseY < 400 && mouseY > 260) {
-        mouseY = 185;
-        imagePositionX = -80;
-    }
-        
+     
     //5
-    if(imagePositionX > 170 && imagePositionX < 230 && mouseY < 210 && mouseY > 0) {
-        mouseY = 185;
-        imagePositionX = -80;
-            
-    }
-        
+     
     //6
-    if(imagePositionX > 170 && imagePositionX < 230 && mouseY < 400 && mouseY > 360) {
-        mouseY = 185;
-        imagePositionX = -80;
-    }
-        
+     
     //7
-    if(imagePositionX > 240 && imagePositionX < 300 && mouseY < 155 && mouseY > 0 ) {
-        mouseY = 185;
-        imagePositionX = -80;
-    }
-        
+     
     //8
-    if(imagePositionX > 240 && imagePositionX < 300 && mouseY < 400 && mouseY > 270) {
-        mouseY = 185;
-        imagePositionX = -80;
-    }
-        
+    
     //9
-    if(imagePositionX > 310 && imagePositionX <360 && mouseY < 210 && mouseY > 0 ) {
-        mouseY = 180;
-        imagePositionX = -80;
-    }
-        
+    
     //10
-    if(imagePositionX > 310 && imagePositionX < 360 && mouseY < 400 && mouseY > 290) {
-        mouseY = 180;
-        imagePositionX = -80;
-    }
     
     spaceShip();
     imagePositionX++;
