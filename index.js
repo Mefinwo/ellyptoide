@@ -35,9 +35,7 @@ function backButton() {
 function startPage() {
     
     fill(51, 0, 255);
-    textSize(7);
     text("EllipToyde", 450, 180);
-    textsize(3);
 
     draw = function() {
         fill(0, 255, 68); 
