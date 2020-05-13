@@ -35,22 +35,22 @@ function backButton() {
 function startPage() {
     
     fill(51, 0, 255);
-        
-    text("EllipToyde", 520, 200);
-   
+    textSize(7);
+    text("EllipToyde", 450, 180);
+    textsize(3);
 
     draw = function() {
         fill(0, 255, 68); 
         
-        if (mouseIsPressed && mouseY > 300 && mouseY<400 && mouseX>500 && mouseX<750) { 
+        if (mouseIsPressed && mouseY > 250 && mouseY<400 && mouseX>500 && mouseX<800) { 
             Level_1();
         }
 
-        rect(500,300 , 300, 150);  
+        rect(400,250 , 300, 150);  
         
         fill(0, 0, 0);
 
-        text("Start", 550, 350);
+        text("Start", 450, 370);
     };
 }
    
