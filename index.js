@@ -42,11 +42,11 @@ function startPage() {
     draw = function() {
         fill(0, 255, 68); 
         
-        if (mouseIsPressed && mouseY > 450 && mouseY<550 && mouseX>500 && mouseX<750) { 
+        if (mouseIsPressed && mouseY > 300 && mouseY<400 && mouseX>500 && mouseX<750) { 
             Level_1();
         }
 
-        rect(500,300 , 250, 100);  
+        rect(500,300 , 300, 150);  
         
         fill(0, 0, 0);
 
@@ -59,7 +59,6 @@ function Level_1() {
     draw = function() {
        background(255,0,0)
      
-     backButton();
     fill(0, 0, 255);
        
  
