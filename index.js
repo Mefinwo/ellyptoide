@@ -36,21 +36,21 @@ function startPage() {
     
     fill(51, 0, 255);
         
-    text("EllipToyde", 112, 58);
+    text("EllipToyde", 520, 400);
    
 
     draw = function() {
         fill(0, 255, 68); 
         
-        if (mouseIsPressed && mouseY > 150 && mouseY<250 && mouseX>50 && mouseX<300) { 
+        if (mouseIsPressed && mouseY > 450 && mouseY<550 && mouseX>500 && mouseX<750) { 
             Level_1();
         }
 
-        rect(50, 150, 250, 100);  
+        rect(500, 450, 250, 100);  
         
         fill(0, 0, 0);
 
-        text("Start", 100, 193);
+        text("Start", 550, 400);
     };
 }
    
