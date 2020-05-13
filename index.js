@@ -40,7 +40,7 @@ function startPage() {
     draw = function() {
         fill(0, 255, 68); 
         
-        if (mouseIsPressed && mouseY > 250 && mouseY<400 && mouseX>500 && mouseX<800) { 
+        if (mouseIsPressed && mouseY > 250 && mouseY<400 && mouseX>400 && mouseX<700) { 
             Level_1();
         }
 
@@ -48,7 +48,7 @@ function startPage() {
         
         fill(0, 0, 0);
 
-        text("Start", 450, 370);
+        text("Start", 460, 360);
     };
 }
    
