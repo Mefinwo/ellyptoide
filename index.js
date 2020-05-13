@@ -36,7 +36,7 @@ function startPage() {
     
     fill(51, 0, 255);
         
-    text("EllipToyde", 520, 400);
+    text("EllipToyde", 280, 500);
    
 
     draw = function() {
@@ -46,11 +46,11 @@ function startPage() {
             Level_1();
         }
 
-        rect(500, 450, 250, 100);  
+        rect(550,400 , 250, 100);  
         
         fill(0, 0, 0);
 
-        text("Start", 550, 400);
+        text("Start", 600, 450);
     };
 }
    
