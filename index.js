@@ -6,7 +6,7 @@ var backY = 5;
     
     
 function setup () {
-    createCanvas(600,1200);
+    createCanvas(1200,600);
     strokeWeight(3);
     background(255, 4, 0);
     textSize(30);
