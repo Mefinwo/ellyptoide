@@ -61,10 +61,10 @@ function Level_1() {
        
  
     //1
-    rect(100, 0, 80, 500)
+    rect(100, 0, 80, 250)
         
     //2
-    
+    rect(100, 300, 80, 300)
         
     //3
     
@@ -94,7 +94,7 @@ function Level_1() {
       
        
     if (imagePositionX>1175) {
-        mouseY = 550;
+        mouseY = 275;
         imagePositionX = -100;
            
     }
