@@ -3,7 +3,7 @@
 var imagePositionX = -20;
 var backX = 5;
 var backY = 5;
-    
+var textGröße = 4;
     
 function setup () {
     createCanvas(1200,600);
@@ -11,6 +11,20 @@ function setup () {
     background(255, 4, 0);
     textSize(30);
     startPage();
+}
+
+function done () {
+    draw = function() {
+    textSize(textGröße)
+    text("WoW",770,230)
+    if(textGröße>8){
+        textGröße--;
+    }
+    if(textGröße<3) {
+        textGröße++;
+    }
+    textGröße++;
+    }
 }
 
 function spaceShip() {
@@ -109,7 +123,9 @@ function Level_1() {
            
     }
              
-      
+    if (imagePositionX>750){
+
+    }
        
     //1
       
