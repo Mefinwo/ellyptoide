@@ -95,6 +95,12 @@ function Level_1() {
       
     //12
     rect(600, 270,50,330)
+
+    //13
+    rect(700,0,50,190)
+
+    //14
+    rect(700,240,50,360)
     
 
     if (imagePositionX>1175) {
