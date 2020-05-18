@@ -15,15 +15,15 @@ function setup () {
 
 function done () {
     draw = function() {
-    textSize(textGröße)
-    text("WoW",770,230)
-    if(textGröße>8){
-        textGröße--;
-    }
-    if(textGröße<3) {
+        textSize(textGröße)
+        text("WoW",770,230)
+        if(textGröße>8){
+            textGröße--;
+        }
+        if(textGröße<3) {
+            textGröße++;
+        }
         textGröße++;
-    }
-    textGröße++;
     }
 }
 
@@ -124,7 +124,7 @@ function Level_1() {
     }
              
     if (imagePositionX>750){
-
+        done();
     }
        
     //1
