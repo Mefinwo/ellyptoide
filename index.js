@@ -16,11 +16,11 @@ function setup () {
 function done () {
     draw = function() {
         textSize(textGröße)
-        text("WoW",770,230)
-        if(textGröße>8){
+        text("WoW",770,110)
+        if(textGröße>12){
             textGröße--;
         }
-        if(textGröße<3) {
+        if(textGröße<4) {
             textGröße++;
         }
         textGröße++;
