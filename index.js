@@ -67,9 +67,7 @@ function startPage() {
 }
    
 function Level_1() {
-    if (imagePositionX>750){
-        done();
-    }
+   
 
 
     draw = function() {
@@ -127,7 +125,9 @@ function Level_1() {
            
     }
              
-   
+    if (imagePositionX>750){
+        done();
+    }
        
     //1
       
