@@ -90,9 +90,13 @@ function Level_1() {
     //10
     rect(500, 300, 50, 300)
         
-        
+    //11
+    rect(600, 0, 50, 220)
       
-       
+    //12
+    rect(600, 270,50,330)
+    
+
     if (imagePositionX>1175) {
         mouseY = 275;
         imagePositionX = -100;
