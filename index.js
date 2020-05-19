@@ -16,7 +16,7 @@ function setup () {
 function done () {
     draw = function() {
         textSize(textGröße)
-        text("WoW",790,110)
+        text("WoW!",790,110)
         if(textGröße>12){
             textGröße--;
         }
@@ -120,19 +120,21 @@ function Level_1() {
     
 
     if (imagePositionX>1175) {
-        mouseY = 275;
-        imagePositionX = -100;
+     mouseY = 275;
+    imagePositionX = -100;
            
     }
              
-    if (imagePositionX>750){
-        done();
-    }
        
     //1
-      
+        //rect(100, 0, 50, 250)
+        if (mouseIsPressed && mouseX > 100 && mouseX < 150 && mouseY > 0 && mouseY < 250) {
+        mouseY = 275;
+        imagePositionX = -100;
+      }
     //2
-    
+        //rect(100, 300, 50, 300)
+        if (mouseIsPressed && mouseX > 100 && mouseX < 150 && mouseY > 300 && mouseY < 600)
     //3
        
     //4
