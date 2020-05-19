@@ -128,13 +128,13 @@ function Level_1() {
        
     //1
         //rect(100, 0, 50, 250)
-        if (mouseIsPressed && mouseX > 100 && mouseX < 150 && mouseY > 0 && mouseY < 250) {
+        if (mouseIsPressed && imagePositionX > 100 && imagePositionX < 150 && mouseY > 0 && mouseY < 250) {
         mouseY = 275;
         imagePositionX = -100;
       }
     //2
-        //rect(100, 300, 50, 300)
-        if (mouseIsPressed && mouseX > 100 && mouseX < 150 && mouseY > 300 && mouseY < 600)
+        //rect(100, 0, 50, 300)
+        if (mouseIsPressed && imagePositionX > 100 && imagePositionX < 150 && mouseY > 300 && mouseY < 600)
     //3
        
     //4
