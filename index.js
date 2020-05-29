@@ -16,7 +16,10 @@ function setup () {
 
 function done () {
     draw = function() {
-        
+        noStroke();
+        fill(255,0,0);
+        rect(785,115,70,40);
+        fill(0,0,0);
         textSize(textGröße)
         text("WoW!",790,110)
         if(textGröße>12){
