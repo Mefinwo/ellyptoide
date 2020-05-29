@@ -16,6 +16,7 @@ function setup () {
 
 function done () {
     draw = function() {
+        frameRate(30);
         noStroke();
         fill(255,0,0);
         rect(785,95,70,40);
@@ -29,9 +30,9 @@ function done () {
         } 
 
         if(sollTextWachsen === true){
-            textGröße = textGröße+0,5;
+            textGröße = textGröße+1;
         } else {
-            textGröße = textGröße-0,5;
+            textGröße = textGröße-1;
         }
         
        
@@ -82,7 +83,8 @@ function Level_1() {
 
 
     draw = function() {
-       background(255,0,0)
+    frameRate(60);
+    background(255,0,0)
     
     fill(0, 0, 255);
        
