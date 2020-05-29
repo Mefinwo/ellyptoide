@@ -18,7 +18,7 @@ function done () {
     draw = function() {
         noStroke();
         fill(255,0,0);
-        rect(785,115,70,40);
+        rect(785,105,70,40);
         fill(0,0,0);
         textSize(textGröße)
         text("WoW!",790,110)
