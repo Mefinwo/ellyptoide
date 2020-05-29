@@ -3,7 +3,7 @@
 var imagePositionX = -20;
 var backX = 5;
 var backY = 5;
-var textGröße = 6;
+var textGröße = 10;
 var sollTextWachsen = true;
     
 function setup () {
@@ -18,20 +18,20 @@ function done () {
     draw = function() {
         noStroke();
         fill(255,0,0);
-        rect(785,105,70,40);
+        rect(785,95,70,40);
         fill(0,0,0);
         textSize(textGröße)
         text("WoW!",790,110)
-        if(textGröße>12){
+        if(textGröße>20){
             sollTextWachsen = false;
-        } else if(textGröße<4) {
+        } else if(textGröße<8) {
             sollTextWachsen = true;
         } 
 
         if(sollTextWachsen === true){
-            textGröße++;
+            textGröße = textGröße+0,5;
         } else {
-            textGröße--;
+            textGröße = textGröße-0,5;
         }
         
        
