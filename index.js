@@ -15,6 +15,7 @@ function setup () {
 
 function done () {
     draw = function() {
+        background(255,0,0)
         textSize(textGröße)
         text("WoW!",790,110)
         if(textGröße>12){
@@ -123,6 +124,10 @@ function Level_1() {
      mouseY = 275;
     imagePositionX = -100;
            
+    }
+
+    if (imagePositionX > 750) {
+        done();
     }
              
        
