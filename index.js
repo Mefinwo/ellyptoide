@@ -72,7 +72,7 @@ function Level_1() {
 
     draw = function() {
        background(255,0,0)
-     
+    
     fill(0, 0, 255);
        
  
@@ -128,13 +128,16 @@ function Level_1() {
        
     //1
         //rect(100, 0, 50, 250)
-        if (mouseIsPressed && imagePositionX > 100 && imagePositionX < 150 && mouseY > 0 && mouseY < 250) {
-        mouseY = 275;
-        imagePositionX = -100;
+        if (imagePositionX > 100 && imagePositionX < 150 && mouseY > 0 && mouseY < 250) {
+            mouseY = 275;
+            imagePositionX = -100;
       }
     //2
         //rect(100, 0, 50, 300)
-        if (mouseIsPressed && imagePositionX > 100 && imagePositionX < 150 && mouseY > 300 && mouseY < 600)
+        if (imagePositionX > 100 && imagePositionX < 150 && mouseY > 300 && mouseY < 600) {
+            mouseY = 275;
+            imagePositionX = -100;
+        }
     //3
        
     //4
