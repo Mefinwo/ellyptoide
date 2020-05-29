@@ -140,6 +140,8 @@ function Level_1() {
 
     if (imagePositionX > 750) {
         done();
+        spaceShip();
+        imagePositionX++;
     }
              
        
