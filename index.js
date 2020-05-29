@@ -34,7 +34,8 @@ function done () {
         } else {
             textGröße = textGröße-1;
         }
-        
+        spaceShip();
+        imagePositionX++;
        
     }
 }
@@ -140,8 +141,8 @@ function Level_1() {
 
     if (imagePositionX > 750) {
         done();
-        spaceShip();
-        imagePositionX++;
+        
+        
     }
              
        
