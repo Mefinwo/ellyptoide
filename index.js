@@ -4,6 +4,7 @@ var imagePositionX = -20;
 var backX = 5;
 var backY = 5;
 var textGröße = 6;
+var sollTextWachsen = true;
     
 function setup () {
     createCanvas(1200,600);
@@ -19,12 +20,18 @@ function done () {
         textSize(textGröße)
         text("WoW!",790,110)
         if(textGröße>12){
+            sollTextWachsen = false;
+        } else if(textGröße<4) {
+            sollTextWachsen = true;
+        } 
+
+        if(sollTextWachsen === true){
+            textGröße++;
+        } else {
             textGröße--;
         }
-        if(textGröße<4) {
-            textGröße++;
-        }
-        textGröße++;
+        
+       
     }
 }
 
