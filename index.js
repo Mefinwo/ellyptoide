@@ -19,7 +19,7 @@ function done () {
         frameRate(30);
         noStroke();
         fill(255,0,0);
-        rect(745,95,500,500);
+        rect(740,1,600,800);
         fill(0,0,0);
         textSize(textGröße)
         text("WoW!",790,110)
@@ -33,6 +33,12 @@ function done () {
             textGröße = textGröße+1;
         } else {
             textGröße = textGröße-1;
+        }
+
+        if (imagePositionX>1175) {
+            mouseY = 275;
+            imagePositionX = -100;
+               
         }
         spaceShip();
         imagePositionX++;
@@ -133,11 +139,7 @@ function Level_1() {
     rect(700,240,50,360)
     
 
-    if (imagePositionX>1175) {
-     mouseY = 275;
-    imagePositionX = -100;
-           
-    }
+   
 
     if (imagePositionX > 750) {
         done();
