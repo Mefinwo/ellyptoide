@@ -37,6 +37,8 @@ function done () {
 
         if (imagePositionX>1175) {
            Level_1();
+           imagePositionX = -100;
+           mouseY = 750;
                
         }
         spaceShip();
