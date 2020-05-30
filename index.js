@@ -19,7 +19,7 @@ function done () {
         frameRate(30);
         noStroke();
         fill(255,0,0);
-        rect(785,95,500,500);
+        rect(745,95,500,500);
         fill(0,0,0);
         textSize(textGröße)
         text("WoW!",790,110)
