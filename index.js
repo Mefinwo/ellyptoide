@@ -69,6 +69,7 @@ function startPage() {
     text("EllipToyde", 450, 180);
 
     draw = function() {
+        background(255,0,0)
         fill(0, 255, 68); 
         
         if (mouseIsPressed && mouseY > 250 && mouseY<400 && mouseX>400 && mouseX<700) { 
