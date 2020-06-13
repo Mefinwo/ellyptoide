@@ -157,21 +157,41 @@ function Level_1() {
             imagePositionX = -100;
       }
     //2
-        //rect(100, 0, 50, 300)
+        //rect(100, 300, 50, 300)
         if (imagePositionX > 100 && imagePositionX < 150 && mouseY > 300 && mouseY < 600) {
             mouseY = 275;
             imagePositionX = -100;
         }
     //3
-       
+       //rect(200, 0, 50, 220)
+       if(imagePositionX > 200 && imagePositionX < 250 && mouseY > 0 && mouseY < 220) {
+        mouseY = 275;
+        imagePositionX = -100;
+       }
     //4
-     
+       //rect(200, 270,50,330)
+       if(imagePositionX > 200 && imagePositionX < 250 && mouseY > 270 && mouseY <600) {
+        mouseY = 275;
+        imagePositionX = -100;
+       }
     //5
-     
+       //rect(300,0,50,190)
+       if(imagePositionX > 300 && imagePositionX < 350 && mouseY > 0 && mouseY < 190) {
+        mouseY = 275;
+        imagePositionX = -100;
+       }
     //6
-     
+       //rect(300,240,50,360)
+       if(imagePositionX > 300 && imagePositionX < 350 && mouseY > 240 && mouseY < 600) {
+        mouseY = 275;
+        imagePositionX = -100;
+       }
     //7
-     
+       //rect(400,0,50,220)
+       if(imagePositionX > 400 && imagePositionX < 450 && mouseY > 0 && mouseY < 220) {
+        mouseY = 275;
+        imagePositionX = -100;
+       }
     //8
     
     //9
