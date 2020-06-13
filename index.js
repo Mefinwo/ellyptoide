@@ -68,6 +68,7 @@ function startPage() {
     
     draw = function() {
         background(255,0,0)
+        textSize(30);
         fill(51, 0, 255);
         text("EllipToyde", 450, 180);
         fill(0, 255, 68); 
@@ -92,7 +93,6 @@ function Level_1() {
     frameRate(60);
     noStroke();
     background(255,0,0)
-    
     fill(0, 0, 255);
        
  
