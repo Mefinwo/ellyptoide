@@ -92,7 +92,7 @@ function Level_1() {
 
     draw = function() {
     frameRate(60);
-    moStroke();
+    noStroke();
     background(255,0,0)
     
     fill(0, 0, 255);
