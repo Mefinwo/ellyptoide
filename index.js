@@ -56,7 +56,7 @@ function backButton() {
         rect(5, 5, 45, 45);
         fill(255, 0, 0);
         
-        textSize()
+        textSize(10);
         text("BACK", 3, 15, 45, 30);
         
         if(mouseIsPressed && mouseX <50 && mouseX > 5 && mouseY <50 && mouseY > 5) {
