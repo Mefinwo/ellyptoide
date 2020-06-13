@@ -1,8 +1,6 @@
 
 
 var imagePositionX = -20;
-var backX = 5;
-var backY = 5;
 var textGröße = 10;
 var sollTextWachsen = true;
     
@@ -55,14 +53,13 @@ function spaceShip() {
 function backButton() {
         
         fill(0, 255, 21);
-        rect(backX, backY, 45, 45);
+        rect(5, 5, 45, 45);
         fill(255, 0, 0);
         
         text("BACK", 3, 15, 45, 30);
         
-        if(backX <50 && backX > 5 && backY <50 && backY > 5) {
+        if(mouseIsPressed && mouseX <50 && mouseX > 5 && mouseY <50 && mouseY > 5) {
         startPage();
-        
         }
          }
     
@@ -193,11 +190,12 @@ function Level_1() {
         imagePositionX = -100;
        }
     //8
-    
+       //rect(400,270,50,330)
     //9
     
     //10
     
+    backButton();
     spaceShip();
     imagePositionX++;
     
